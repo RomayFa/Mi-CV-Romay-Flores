@@ -1,3 +1,149 @@
-body{
-    color: 
-}
+body {
+    font-family: "Arial", sans-serif;
+    background-image: radial-gradient(
+      circle at 50% -20.71%,
+      #fff56b 0,
+      #fff866 6.25%,
+      #fdfa63 12.5%,
+      #e7fb61 18.75%,
+      #d0fb62 25%,
+      #b5fa65 31.25%,
+      #97f86a 37.5%,
+      #73f670 43.75%,
+      #3cf278 50%,
+      #00ee82 56.25%,
+      #00ea8f 62.5%,
+      #00e69d 68.75%,
+      #00e2ad 75%,
+      #00dfbe 81.25%,
+      #00dbd1 87.5%,
+      #00d8e3 93.75%,
+      #00d6f6 100%
+    );
+    padding: 20px 50px 20px 50px;
+  }
+  
+  .titulo1 {
+    background-image: url(../assets/imagens/fondo.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    border-radius: 8%;
+  }
+  .principal {
+    background-position: center;
+    left: 50%;
+    top: -100px;
+    border-radius: 2%;
+  }
+  .foto {
+    border-radius: 8%;
+    width: 200px;
+  }
+  .titulo2 {
+    background-color: #e6e6e6;
+    padding: auto;
+    text-align: center;
+    height: auto;
+    width: auto;
+    border-radius: 2%;
+    border-top-right-radius: 2%;
+    border-style: dashed;
+    float: left;
+  }
+  .hobies {
+    height: auto;
+    width: auto;
+    padding: auto;
+    display: flex;
+  }
+  
+  .foto2 {
+    border-radius: 120px;
+    margin-right: 10px;
+    display: flex;
+  }
+  
+  .titulo3 {
+    background-color: #e6e6e6;
+    padding: 2% 2% 2% 2%;
+    text-align: center;
+    border-radius: 2%;
+    border-top-right-radius: 2%;
+    border-style: dashed;
+    float: right;
+  }
+  
+  .pregun {
+    text-transform: uppercase;
+    font-size: 150%;
+  }
+  
+  .titulopre {
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  
+  .letradelcuadro {
+    display: flex;
+    padding: 1px;
+    margin: 1px;
+  }
+  .perfil {
+    background-color: #fff;
+    border-style: dashed;
+  }
+  .estilocuadro {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  #subtitulo {
+    display: block;
+    font-weight: bold;
+    background-color: #3498db;
+    color: #fff;
+  }
+  #texto1 {
+    font-weight: 600;
+  }
+  .contacto {
+    background-image: radial-gradient(
+      circle at 50% -20.71%,
+      #ade5ff 0,
+      #7dcefb 25%,
+      #3cb5f2 50%,
+      #009ce9 75%,
+      #0085e0 100%
+    );
+    color: #382f2f;
+    text-align: center;
+    border-style: dashed;
+  }
+  .container {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5%;
+    padding: 1% 1% 1% 1%;
+    display: grid;
+    gap: 1em;
+    margin: auto;
+    grid-auto-columns: 100%;
+  }
+  .form.input {
+    font-family: inherit;
+    font-size: 2rem;
+    pad: 8em 1 em;
+    border-radius: 2%;
+  }
+  .booton{
+      background-color: #382f2f;
+      color: antiquewhite;
+  
+  
+  }
