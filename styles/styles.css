@@ -25,6 +25,9 @@ body {
   
   .titulo1 {
     background-image: url(../assets/imagens/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -126,20 +129,20 @@ body {
     border-style: dashed;
   }
   .container {
-    width: 100%;
+    width: 400%;
     max-width: 400px;
     border-radius: 5%;
-    padding: 1% 1% 1% 1%;
+    padding: 1%;
     display: grid;
-    gap: 1em;
+    gap: 10px;
     margin: auto;
     grid-auto-columns: 100%;
   }
   .form.input {
     font-family: inherit;
-    font-size: 2rem;
-    pad: 8em 1 em;
+    font-size: 5%;
     border-radius: 2%;
+    padding: 10%;
   }
   .booton{
       background-color: #382f2f;
